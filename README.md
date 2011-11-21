@@ -7,4 +7,4 @@ Installation
 ------------
 Automatically install it without cloning this repository.
 
-     wget -O - https://raw.github.com/josephj/config/master/install.sh | sh
+     wget -O - https://raw.github.com/josephj/linux_config/master/install.sh | sh
