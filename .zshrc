@@ -156,9 +156,17 @@ alias cdphpcs="cd /usr/share/pear/PHP/CodeSniffer";
 alias goconf="cd /etc/httpd/conf.d/"
 alias gophpcs="cd /usr/share/pear/PHP/CodeSniffer";
 alias restart="sudo /etc/init.d/httpd restart"
+alias gowww="cd ~/miiicasa/"
+alias cdstatic="cd ~/miiicasa/static/";
+alias cdwww="cd ~/miiicasa/"
+alias gostatic="cd ~/miiicasa/static";
+alias nodejs="~/miiicasa/comet/node.js restart";
 
 # Environment Variables.
 export TZ="/usr/share/zoneinfo/Asia/Taipei"
 export MAVEN_HOME=/home/m/lib/maven
 export PATH="/usr/local/bin:/usr/local/sbin/:/bin:/sbin:/usr/bin:/usr/sbin:${PATH}"
 export PATH="${MAVEN_HOME}/bin:/usr/local/maven/bin:${PATH}"
+export PATH="/home/dev/${USER}/miiicasa/lib:/home/dev/${USER}/miiicasa/bin:${PATH}"
+
+
