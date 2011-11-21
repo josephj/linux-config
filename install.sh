@@ -31,4 +31,3 @@ git submodule update --init
 echo "miiiCasa configuration file has been installed."
 
 cd "$CONFIG_HOME"
-sh prompt.sh
