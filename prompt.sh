@@ -1,6 +1,6 @@
 #!/bin/sh
 
-user_name = ""
+user_name=""
 while [ "$user_name" == "" ]
 do
     echo "Please input your user name for Git configuration (ex. Joseph Chiang): "
@@ -8,7 +8,7 @@ do
 done
 git config --global user.name "$user_name"
 
-user_email = ""
+user_email=""
 while [ "$user_email" == "" ]
 do
     echo "Please input your email for Git configuration (ex. joseph_chiang@miiicasa.com): "
