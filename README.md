@@ -19,4 +19,4 @@ Backup your original configuration files if necessary.
      
 Install everything with one-line command.
 
-     wget -O - https://raw.github.com/miiicasa/linux-config/master/install.sh | sh
+     wget -O - https://raw.github.com/miiicasa/linux-config/master/install.sh | sh; sh ./config/prompt.sh
