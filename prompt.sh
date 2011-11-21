@@ -9,7 +9,7 @@ done
 git config --global user.name "$user_name"
 
 user_email = ""
-while [ "$user_name" == "" ]
+while [ "$user_email" == "" ]
 do
     echo "Please input your email for Git configuration (ex. joseph_chiang@miiicasa.com): "
     read user_email
