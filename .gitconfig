@@ -12,7 +12,7 @@
 
 [diff]
     color = auto
-    external = ~/git_diff_wrapper
+    external = ../git_diff_wrapper
 
 [color]
     diff = auto
