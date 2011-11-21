@@ -7,7 +7,7 @@ Installation
 ------------
 Automatically install it without cloning this repository.
 
-1. Backup your original configuration files if necessary.
+Backup your original configuration files if necessary.
 
      mv .gitconfig .gitconfig.bak;
      mv .vim .vim.bak;
@@ -16,6 +16,6 @@ Automatically install it without cloning this repository.
      mv .tmux.conf .tmux.conf.bak;
      mv git_diff_wrapper git_diff_wrapper.bak;
      
-1. Install everything with one-line command.
+Install everything with one-line command.
 
      wget -O - https://raw.github.com/miiicasa/linux-config/master/install.sh | sh
