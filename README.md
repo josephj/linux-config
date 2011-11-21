@@ -7,4 +7,4 @@ Installation
 ------------
 Automatically install it without cloning this repository.
 
-     wget -O - https://raw.github.com/josephj/linux-config/master/install.sh | sh
+     wget -O - https://raw.github.com/miiicasa/linux-config/master/install.sh | sh
