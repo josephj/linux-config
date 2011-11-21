@@ -29,10 +29,6 @@
 [branch]
     color = auto
 
-[user]
-    email = joseph_chiang@miiicasa.com
-    name = Joseph Chiang
-
 [merge]
     tool = araxismerge
 
