@@ -25,6 +25,13 @@ ln -s .config/.tmux.conf .tmux.conf
 ln -s .config/.gitconfig .gitconfig
 ln -s .config/git_diff_wrapper git_diff_wrapper
 
+echo "Please input your user name for Git configuration (ex. Joseph Chiang): "
+read user_name
+git config -g user.name $user_name
+echo "Please input your email for Git configuration (ex. joseph_chiang@miiicasa.com): "
+read user_email
+git config -g user.email $user_email
+
 cd "${CONFIG_HOME}/.vim"
 git submodule update --init
 
