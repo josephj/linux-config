@@ -12,7 +12,7 @@ die() {
 
 [ -e "~/.config" ] && die "~/.config already exists."
 
-git clone git://github.com/josephj/linux-config.git "$CONFIG_HOME"
+git clone git://github.com/miiicasa/linux-config.git "$CONFIG_HOME"
 
 cd "$CONFIG_HOME"
 git submodule update --init
@@ -28,4 +28,4 @@ ln -s .config/git_diff_wrapper git_diff_wrapper
 cd "${CONFIG_HOME}/.vim"
 git submodule update --init
 
-echo "josephj's configuration file has been installed."
+echo "miiiCasa configuration file has been installed."
