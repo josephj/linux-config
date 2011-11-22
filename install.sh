@@ -28,4 +28,6 @@ ln -s .config/git_diff_wrapper git_diff_wrapper
 cd "${CONFIG_HOME}/.vim"
 git submodule update --init
 
-echo "josephj's configuration file has been installed."
+echo "Your configuration files has been installed."
+
+cd "$CONFIG_HOME"
