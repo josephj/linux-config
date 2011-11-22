@@ -169,4 +169,13 @@ export PATH="/usr/local/bin:/usr/local/sbin/:/bin:/sbin:/usr/bin:/usr/sbin:${PAT
 export PATH="${MAVEN_HOME}/bin:/usr/local/maven/bin:${PATH}"
 export PATH="/home/dev/${USER}/miiicasa/lib:/home/dev/${USER}/miiicasa/bin:${PATH}"
 
+# get the name of the branch we are on
+git_prompt_info() {
+      ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+            echo "(${ref#refs/heads/})"
+}
+autoload -U colors
+colors
+setopt prompt_subst
+PROMPT='%{$fg[green]%}%n@%m %~ %{$fg[red]%}$(git_prompt_info)%{$reset_color%} %# '
 
