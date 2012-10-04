@@ -38,3 +38,6 @@
 
 [http]
     sslverify = false
+[user]
+	name = Joseph Chiang
+	email = joseph_chiang@miiicasa.com
